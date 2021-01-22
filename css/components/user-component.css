@@ -45,3 +45,7 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.chats {
+  margin-top: 15px;
+}

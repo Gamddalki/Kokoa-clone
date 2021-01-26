@@ -1,0 +1,26 @@
+.settings__comp {
+  padding: 15px 0px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.fir {
+  padding: 70px 0px 0px 0px;
+  border-bottom: var(--main-border);
+}
+
+.settings__comp i {
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.settings__column {
+  justify-content: space-between;
+}
+
+.st {
+  font-size: 16px;
+  color: var(--gray);
+}

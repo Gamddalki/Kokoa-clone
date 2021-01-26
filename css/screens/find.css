@@ -20,7 +20,7 @@
 }
 
 .recom-friends {
-  margin: 25px 0px;
+  margin: 25px 0px 20px 0px;
   padding: 20px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
@@ -33,7 +33,53 @@
 
 .recom-friends span {
   display: block;
-  margin: 110px 0px;
+  margin: 100px 0px;
   color: var(--gray);
   text-align: center;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.open-post {
+  display: flex;
+}
+
+.open-post__title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.open-post__hash {
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 5px;
+}
+
+.open-post__mem {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__mem img {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__num {
+  margin-right: 5px;
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.open-post__stat {
+  font-size: 14px;
+  color: #ffb0e0;
 }

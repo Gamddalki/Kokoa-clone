@@ -49,6 +49,10 @@
   align-items: flex-end;
 }
 
+.user-component__m {
+  color: #2e363e;
+}
+
 .user-component__time {
   display: block;
   margin-bottom: 10px;

@@ -1,0 +1,49 @@
+.more-screen .icon-row {
+  margin-top: 30px;
+}
+
+.more-screen .icon-row:nth-last-child(2) {
+  padding-bottom: 25px;
+}
+
+.suggestions .icon-row__icon span {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.suggestions {
+  border-top: var(--main-border);
+  padding-top: 20px;
+}
+
+.suggestions__title {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.suggestions .icon-row {
+  color: var(--gray);
+}
+
+.fa-quote-right {
+  background-color: var(--yellow);
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.fa-paw {
+  background-color: var(--yellow);
+  color: rgb(226, 136, 0);
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.fa-gamepad {
+  background-color: var(--yellow);
+  color: var(--gray);
+  padding: 9px;
+  border-radius: 5px;
+}

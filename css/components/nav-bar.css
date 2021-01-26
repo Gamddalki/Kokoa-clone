@@ -5,7 +5,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
 }
 
 .nav__list {
@@ -23,7 +23,8 @@
   bottom: 17px;
 }
 
-.nav__notif {
+.nav__notif,
+.nav__notif_cog {
   background-color: tomato;
   width: 6px;
   height: 6px;
@@ -32,6 +33,18 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+}
+
+.nav__notif {
   left: 35px;
   bottom: 27px;
+}
+
+.nav__notif_cog {
+  left: 69px;
+  bottom: 18px;
+}
+
+.find__cog {
+  position: relative;
 }

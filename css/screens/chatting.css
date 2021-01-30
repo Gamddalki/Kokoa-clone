@@ -92,3 +92,63 @@
   order: 0;
   margin-right: 4px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+  width: 8%;
+}
+
+.reply .reply__column:nth-child(2) {
+  width: 92%;
+  position: relative;
+}
+
+.reply input {
+  height: 30px;
+  width: 99%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+
+.reply__column:nth-child(2) > i,
+.reply__column:nth-child(2) button {
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.reply__column:nth-child(2) > i {
+  right: 38px;
+  top: 9.5px;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.reply__column button i {
+  opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}

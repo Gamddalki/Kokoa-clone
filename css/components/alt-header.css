@@ -1,5 +1,6 @@
 .alt-head {
   position: fixed;
+  top: 0;
   width: 100%;
   padding: 40px 20px 20px 20px;
   box-sizing: border-box;

@@ -1,7 +1,30 @@
 #chatting-screen {
   background-color: #abc1d1;
+  height: 1100vh;
+}
+
+#chatting-screen .status-bar,
+#chatting-screen .alt-head {
+  background-color: #abc1d1;
+}
+
+#chatting-screen .status-bar {
+  z-index: 3;
+}
+
+#chatting-screen .alt-head {
+  z-index: 2;
 }
 
 .fa-bars {
   margin-left: 20px;
+}
+
+.chatting {
+  margin-top: 95px;
+  z-index: 1;
+}
+
+.chatting__time {
+  text-align: center;
 }

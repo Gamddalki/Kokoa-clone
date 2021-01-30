@@ -75,3 +75,20 @@
   margin-left: 4px;
   opacity: 0.9;
 }
+
+.from-me {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.from-me .message__bubble {
+  background-color: var(--yellow);
+  border-top-left-radius: 13px;
+  border-top-right-radius: 0px;
+  order: 1;
+}
+
+.from-me .message__time {
+  order: 0;
+  margin-right: 4px;
+}
